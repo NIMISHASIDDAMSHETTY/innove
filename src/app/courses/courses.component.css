@@ -1,0 +1,25 @@
+
+     p{
+        color:black;
+        font-size: 20px;
+    }
+    
+    h1{
+        padding-top: 55px;
+        font-family:cursive;
+          }
+    .container-fluid{
+        height:300px;
+        width:100%;
+        background-image: url("https://tse1.mm.bing.net/th?id=OIP.uD_7Wmt0te84xs4qZA7pVgHaEK&pid=Api&P=0&w=296&h=167");
+        background-color: black;
+        color: white;
+    }
+    #about{
+        font-family: sans-serif;
+        color: white;
+        font-size: 20px;
+        margin: 25px;
+    }
+   
+    

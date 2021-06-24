@@ -1,0 +1,73 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    font-size:20px;
+}
+body{
+    background-color:turquoise;
+    background-image: url("https://cdn.wallpapersafari.com/5/18/8eqCRr.png");
+
+}
+.wrapper{
+    position: absolute;
+    top:15%;
+    left:40%;
+    max-width: 100%;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 14px 14px 15px black;
+    border-radius: 10px;
+}
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: mediumslateblue;
+}
+.wrapper input:focus{
+    width:100%;
+}
+
+.wrapper .input_field
+{
+    margin-bottom:10px;
+}
+.wrapper .input_field input[type=text], .wrapper textarea{
+    border : 1px none black;
+    border-bottom:3px solid black;
+    border-radius: 10px;
+    padding:10px;
+}
+.wrapper textarea {
+    height: 50px;
+    resize: none;
+    width:89.5%;
+}
+.wrapper .button input[type=submit]{
+    border :0;
+    margin-top: 10px;
+    padding: 7px;
+    width:100%;
+    background-color:mediumslateblue;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 12px;
+}
+
+.wrapper #error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    transition: all 0.5s ease;
+    background-color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:red;
+    font-weight: bold;
+
+}
